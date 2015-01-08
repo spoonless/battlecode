@@ -2,7 +2,7 @@ Battlecode est un exemple de code pour un entraînement aux tests unitaires, TDD
 
 Le code principal tourne autour de la classe action.Fight et de sa méthode execute
 
-Taches possibles :
+Tâches possibles :
 * Analyse du code au moyen d'un outil de couverture de code et amélioration de la couverture avec de nouveaux tests  
 * Refactoring du code existant pour améliorer la lisibilité du code
 * Ajout de nouvelles fonctionnalités
