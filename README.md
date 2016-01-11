@@ -17,5 +17,5 @@ Mais avant cela, peut-être qu'il serait nécessaire d'améliorer la lisibilité
 * refactoring des tests en s'aidant d'un outil d'analyse de couverture de code
 * refactoring du code de l'application pour rendre la méthode action.Fight#execute lisible
 * nettoyage des commentaires
-* et eventuellement évolution de la conception de l'application
+* et éventuellement évolution de la conception de l'application
 
