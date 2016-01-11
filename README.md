@@ -1,4 +1,4 @@
-Battlecode est un exemple de code pour un entraînement aux tests unitaires, TDD et refactoring.
+Battlecode est un exemple de code Java pour un entraînement aux tests unitaires, TDD et refactoring.
 
 Le code principal tourne autour de la classe action.Fight et de sa méthode execute
 
