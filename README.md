@@ -1,6 +1,6 @@
-Battlecode est un exemple de code pour un entraînement aux tests unitaires, TDD et refactoring.
+Battlecode est un exemple de code en PHP pour un entraînement aux tests unitaires, TDD et refactoring.
 
-Le code principal tourne autour de la classe Fight et de sa méthode execute
+Le code principal tourne autour de la classe Fight et de sa méthode execute.
 
 Tâches possibles :
 * Analyse du code au moyen d'un outil de couverture de code et amélioration de la couverture avec de nouveaux tests  
