@@ -1,6 +1,6 @@
 <?php
-// FIXME : problem to run code coverage in NetBeans
-require_once('PHP/Token/Stream/Autoload.php');
+// FIXME : the line below should be uncommented if code coverage fails in NetBeans
+// require_once('PHP/Token/Stream/Autoload.php');
 include ('../Fight.php');
 include ('../Piece.php');
 
