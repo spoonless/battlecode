@@ -11,9 +11,6 @@ class TypePieceDesc(object):
         self.name = name
         self.attack_points = attack_points
 
-    def __str__(self):
-        return self.name
-
 class TypePiece(Enum):
     """A complete enumeration of all kind of pieces"""
 

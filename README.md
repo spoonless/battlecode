@@ -1,4 +1,4 @@
-Battlecode est un exemple de code Python pour un entraînement aux tests unitaires, TDD et refactoring.
+Battlecode est un exemple de code Python3 pour un entraînement aux tests unitaires, TDD et refactoring.
 
 L'objectif de battlecode est de mettre le développeur en situation. Il va falloir faire évoluer le code d'une application. Malheureusement, le code n'est pas toujours aussi clair et "propre" que l'on aimerait.
 
