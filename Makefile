@@ -1,4 +1,5 @@
 VIRTUALENV_PATH=./venv
+COVERAGE_DIR=./coverage
 
 .PHONY: clean virtualenv check test watchtest deepclean
 
@@ -15,6 +16,9 @@ check:
 test: check
 	${VIRTUALENV_PATH}/bin/pytest src --cov src/
 
+coverage-report: test
+	${VIRTUALENV_PATH}/bin/coverage html -d ${COVERAGE_DIR}
+
 watchtest:
 	env PATH=${VIRTUALENV_PATH}/bin:${PATH} ${VIRTUALENV_PATH}/bin/ptw src -- --cov src/
 
@@ -23,4 +27,4 @@ clean:
 	find . -name "__pycache__" -delete
 
 deepclean: clean
-	rm -fr ${VIRTUALENV_PATH}
+	rm -fr ${VIRTUALENV_PATH} ${COVERAGE_DIR}
