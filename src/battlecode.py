@@ -43,16 +43,16 @@ def fight(attacker, defender):
         if attacker.attack_points > defender.attack_points: # If attacker wins
             looser = defender
         elif attacker.attack_points < defender.attack_points: # If defender looses
-            looser = attacker;
+            looser = attacker
         else: # If equality
-            looser = None;
+            looser = None
     elif defender.type == TypePiece.TRAP: # If defender is a TRAP
         if attacker.type == TypePiece.DWARF: # If attacker is a DWARF then he wins
-            looser = defender;
+            looser = defender
         else:
 
             # If attacker.type is not a DWARF then defender wins
-            looser = attacker;
+            looser = attacker
     else:
         looser = defender # TREASURE
 
